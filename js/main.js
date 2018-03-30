@@ -18,14 +18,6 @@
 
 	};
 
-	document.getElementById('miaudio').addEventListener("mouseup", tapOrClick, false);
-	document.getElementById('miaudio').addEventListener("touchend", tapOrClick, false);
-
-	function tapOrClick(e) {
-	    var mp3 = e.target;
-	        mp3.parentNode.getElementsByTagName('audio')[0].play();
-	}
-
 
 	var offcanvasMenu = function() {
 
@@ -234,7 +226,6 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
-		tapOrClick();
 	});
 
 

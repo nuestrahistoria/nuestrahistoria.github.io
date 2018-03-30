@@ -1,3 +1,10 @@
 .js-fh5co-nav-toggle{
   display: none;
 }
+audio::-webkit-media-controls-panel {
+  background: transparent;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: white;
+}
